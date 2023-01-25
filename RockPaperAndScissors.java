@@ -35,10 +35,13 @@ public class RockPaperAndScissors {
             int computerRandomNumber = random.nextInt(3);
             switch (computerRandomNumber){
                 case 0: computerMove = rock;
+                    System.out.println("Computer choose Rock");
                     break;
                 case 1: computerMove = paper;
+                    System.out.println("Computer choose Paper");
                     break;
                 case 2: computerMove = scissors;
+                    System.out.println("Computer choose Scissors");
                     break;
             }
 
@@ -54,7 +57,5 @@ public class RockPaperAndScissors {
                 looses ++;
             }
         }
-
-
     }
 }
